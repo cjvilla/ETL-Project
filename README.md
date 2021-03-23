@@ -7,4 +7,9 @@
   </p>
   <p>
     <a href="https://www.kaggle.com/jinbonnie/chicago-airbnb-open-data/version/1"> Chicago Airbnb Listings </a>
- 
+  <p> Data files used in this project <p>
+     <ul>
+       <li><b>listings.csv</b>: This file contains data from Chicago about the Airbnb host, listings, property information, price, and minimum number of ngihts allowed</li>
+       <li>AB_US_2020<b>.csv</b>: This file contains data from U.S.cities about the Airbnb host, listings, property information, price, and minimum number of ngihts allowed</li>
+      </ul>
+  
