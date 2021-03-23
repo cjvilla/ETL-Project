@@ -37,6 +37,8 @@ select * from count_by_city;
 select * from count_room_and_avg_price;
 select * from max_price_by_city; 
 select * from demographics;
+select * from us_demographics;
+select * from num_people_by_age;
 
 -- cities with the most airbnbs in desc
 create view count_by_city as
@@ -65,3 +67,23 @@ select room_type, count(room_type) as count_per_room_type, cast(avg(price) as de
 from us_data
 group by room_type
 order by count_per_room_type desc;
+
+-- demographics from the U.S.
+create view us_demographics as
+select * from demographics
+where country = 'US';
+
+-- number of Americans per age group
+create view num_people_by_age as
+select age_bins, sum(population_in_thousands) as total_population 
+from us_demographics
+group by age_bins
+order by total_population desc;
+
+-- num of people by gender
+create view num_people_by_gender as
+select gender, sum(population_in_thousands) as count_per_person
+from us_demographics
+group by gender
+order by count_per_person desc;
+
