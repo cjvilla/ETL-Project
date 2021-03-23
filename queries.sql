@@ -16,9 +16,11 @@ create table chicago_data (
 	city text
 );
 
+-- join tables
+create view joined_tables as
 select us.id, us.neighbourhood, us.room_type, us.price, us.minimum_nights, us.city
 from us_data as us
-join chicago_data as c
+left join chicago_data as c
 on us.id = c.id;
 
 select * from us_data;
