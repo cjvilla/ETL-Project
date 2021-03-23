@@ -11,7 +11,7 @@
       </ul>
   
 <Strong><h3> Data Cleanup and Analysis </h3></Strong>
-  <p> A techincal report of the following below will be produced in a technical report: <p>
+  <p> A summary of the following below will be produced in a technical report: <p>
    <ul>
        <li> The type of transofrmations performed on the data (cleaning, joining, filtering, aggregating, etc.)</li>
        <li> The type of final production database to load the data into (relational or non-relational)</li>
