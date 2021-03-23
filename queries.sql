@@ -15,3 +15,8 @@ create table chicago_data (
 	minimum_nights int,
 	city text
 );
+
+select us.id, us.neighbourhood, us.room_type, us.price, us.minimum_nights, us.city
+from us_data as us
+join chicago_data as c
+on us.id = c.id;
