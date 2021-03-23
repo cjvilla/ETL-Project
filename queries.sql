@@ -16,6 +16,14 @@ create table chicago_data (
 	city text
 );
 
+create table demographics(
+	age_bins text,
+	country text,
+	gender text,
+	population_in_thousands int,
+	year int
+);
+
 -- join tables
 create view joined_tables as
 select us.id, us.neighbourhood, us.room_type, us.price, us.minimum_nights, us.city
@@ -28,6 +36,7 @@ select * from avg_price_by_city;
 select * from count_by_city;
 select * from count_room_and_avg_price;
 select * from max_price_by_city; 
+select * from demographics;
 
 -- cities with the most airbnbs in desc
 create view count_by_city as
