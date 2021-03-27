@@ -36,7 +36,7 @@ Once the data was loaded onto PostgreSQL, we were able to perform multiple queri
 
 * Download csv files from datasource and push to github.
 * Add a new database to Postgres. <br>
-![create_db](images/create_db.png)
+![create_db](images/create_db.PNG)
 * Import pandas and sqlalchemy in Jupyter notebook.<br>
 ![import](images/import.png)
 * Read the datafiles in Jupyter using read_csv.<br>
