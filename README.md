@@ -38,17 +38,17 @@ Once the data was loaded onto PostgreSQL, we were able to perform multiple queri
 * Add a new database to Postgres. <br>
 ![create_db](images/create_db.PNG)
 * Import pandas and sqlalchemy in Jupyter notebook.<br>
-![import](images/import.png)
+![import](images/import.PNG)
 * Read the datafiles in Jupyter using read_csv.<br>
-![read_csv](images/read_csv.png)
+![read_csv](images/read_csv.PNG)
 
 * Clean the data and create relevant dataframes.<br>
-![create_df](images/create_df.png)<br>
-![dropna](images/drop_na.png)
+![create_df](images/create_df.PNG)<br>
+![dropna](images/drop_na.PNG)
 * Connect engine to postgres.<br>
-![create_engine](images/create_engine.png)
+![create_engine](images/create_engine.PNG)
 * Push tables to sql using to_sql.<br>
-![to_sql](images/to_sql.png)
+![to_sql](images/to_sql.PNG)
 
 * After loading the data into a Postgres database, we could view our tables and create views based on what we were looking for.<br>
 ![postgres_db](images/postgres_db.png)<br>
