@@ -36,28 +36,28 @@ Once the data was loaded onto PostgreSQL, we were able to perform multiple queri
 
 * Download csv files from datasource and push to github.
 * Add a new database to Postgres. <br>
-![create_db](images/create_db.png)
+![create_db](images/create_db.PNG)
 * Import pandas and sqlalchemy in Jupyter notebook.<br>
-![import](images/import.png)
+![import](images/import.PNG)
 * Read the datafiles in Jupyter using read_csv.<br>
-![read_csv](images/read_csv.png)
+![read_csv](images/read_csv.PNG)
 
 * Clean the data and create relevant dataframes.<br>
-![create_df](images/create_df.png)<br>
-![dropna](images/drop_na.png)
+![create_df](images/create_df.PNG)<br>
+![dropna](images/drop_na.PNG)
 * Connect engine to postgres.<br>
-![create_engine](images/create_engine.png)
+![create_engine](images/create_engine.PNG)
 * Push tables to sql using to_sql.<br>
-![to_sql](images/to_sql.png)
+![to_sql](images/to_sql.PNG)
 
 * After loading the data into a Postgres database, we could view our tables and create views based on what we were looking for.<br>
-![postgres_db](images/postgres_db.png)<br>
+![postgres_db](images/postgres_db.PNG)<br>
 The airbnb_db includes two tables, chicago and usa, and four views. 
 * The final tables or collections that will be used in the production database.<br>
-    ![chi_roomtype_data](chi_roomtype_data.png)<br>
+    ![chi_roomtype_data](chi_roomtype_data.PNG)<br>
     While hotel rooms have the highest average price in Chicago, entire home/apt rentals take the lead in total listings. <br>
 
-    ![usa_roomtype_data](usa_roomtype_data.png)<br>
+    ![usa_roomtype_data](usa_roomtype_data.PNG)<br>
     The average prices for USA roomtypes are not nearly as broad as they are for Chicago, but the entire home/apt rentals still take the lead in total listings.
 
     ![room_type_prices](images/room_types_prices.png)<br>
@@ -66,11 +66,3 @@ The airbnb_db includes two tables, chicago and usa, and four views.
     New York City currently has the most Airbnb locations with an average rental price of $149.56.<br>
     ![top_10_highest_prices](images/top_10_highest_prices.png)<br>
     Interestingly, the top 10 most expensive Airbnb locations are cities not situated in the most populous areas of the U.S. Nonetheless, Hawaii is a popular travel destination. 
-
-<br>
-<br>
-<br>
-
-
-
-
