@@ -51,13 +51,13 @@ Once the data was loaded onto PostgreSQL, we were able to perform multiple queri
 ![to_sql](images/to_sql.PNG)
 
 * After loading the data into a Postgres database, we could view our tables and create views based on what we were looking for.<br>
-![postgres_db](images/postgres_db.png)<br>
+![postgres_db](images/postgres_db.PNG)<br>
 The airbnb_db includes two tables, chicago and usa, and four views. 
 * The final tables or collections that will be used in the production database.<br>
-    ![chi_roomtype_data](chi_roomtype_data.png)<br>
+    ![chi_roomtype_data](chi_roomtype_data.PNG)<br>
     While hotel rooms have the highest average price in Chicago, entire home/apt rentals take the lead in total listings. <br>
 
-    ![usa_roomtype_data](usa_roomtype_data.png)<br>
+    ![usa_roomtype_data](usa_roomtype_data.PNG)<br>
     The average prices for USA roomtypes are not nearly as broad as they are for Chicago, but the entire home/apt rentals still take the lead in total listings.
 
     ![room_type_prices](images/room_types_prices.png)<br>
