@@ -1,4 +1,5 @@
-# ETL PROJECT
+# ETL PROJECT: Jillian Nemec & Celine Villareal
+
 Using APIs from Kaggle, this project will use the ETL (extract, transform, and load) procedure to analyze Airbnb data from Chicago and other U.S. cities.
 
 
@@ -54,6 +55,8 @@ Once the data was loaded onto PostgreSQL, we were able to perform multiple queri
 The airbnb_db includes two tables, chicago and usa, and four views. 
 * The final tables or collections that will be used in the production database.<br>
     ![chi_roomtype_data](chi_roomtype_data.png)<br>
+    While hotel rooms have the highest average price in Chicago, entire home/apt rentals take the lead in total listings. <br>
+
     ![neighborhood_price_count](neighborhood_price_count.png)<br>
 
     ![room_type_prices](images/room_types_prices.png)<br>
