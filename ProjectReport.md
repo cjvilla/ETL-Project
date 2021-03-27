@@ -57,13 +57,15 @@ The airbnb_db includes two tables, chicago and usa, and four views.
     ![chi_roomtype_data](chi_roomtype_data.png)<br>
     While hotel rooms have the highest average price in Chicago, entire home/apt rentals take the lead in total listings. <br>
 
-    ![neighborhood_price_count](neighborhood_price_count.png)<br>
+    ![usa_roomtype_data](usa_roomtype_data.png)<br>
+    The average prices for USA roomtypes are not nearly as broad as they are for Chicago, but the entire home/apt rentals still take the lead in total listings.
 
     ![room_type_prices](images/room_types_prices.png)<br>
-
+    The room type most prevalent for Airbnb is the entire home/apt with an average price of $271.01 and average night stay of 10.72 days. In contrast, Hotel Rooms come in last in terms of count and average night stay; but, has the most expensive average price of $281.10. Lastly, a private room has the longest average night stay of 1526.60 days. <br>
     ![top_10_cities](images/top_10_cities.png)<br>
-
+    New York City currently has the most Airbnb locations with an average rental price of $149.56.<br>
     ![top_10_highest_prices](images/top_10_highest_prices.png)<br>
+    Interestingly, the top 10 most expensive Airbnb locations are cities not situated in the most populous areas of the U.S. Nonetheless, Hawaii is a popular travel destination. 
 
 <br>
 <br>
